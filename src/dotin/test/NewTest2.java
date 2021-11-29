@@ -32,12 +32,12 @@ public class NewTest2 {
 		Thread.sleep(5000);
    
 	//EnterUserName
-		driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div[4]/label/div/input")).sendKeys("09361525163");
+		driver.findElement(By.xpath("//*[@id=\"loginForm\"]/div[4]/label/div/input")).sendKeys("username");
 		driver.findElement(By.xpath("//*[@id=\"loginForm\"]/button")).click();
 		Thread.sleep(5000);
 		
     //EnterPassword
-		driver.findElement(By.xpath("//*[@id=\"authForm\"]/div[2]/div[3]/label/div/input")).sendKeys("8880963");
+		driver.findElement(By.xpath("//*[@id=\"authForm\"]/div[2]/div[3]/label/div/input")).sendKeys("password");
       driver.findElement(By.xpath("//*[@id=\"authForm\"]/button")).click();
 		Thread.sleep(5000);
 		
